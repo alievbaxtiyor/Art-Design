@@ -373,13 +373,6 @@ footer {
     align-items: center;
   }
   .search-btn {
-    width: 40px;
-    font-size: 1.2rem;
-    color: var(--dark);
-    border: none;
-    background-color: transparent;
-    outline: none;
-    cursor: pointer;
-    padding: 1rem 0;
+    padding: 0 1rem;
   }
 }
