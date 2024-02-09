@@ -278,12 +278,12 @@ header {
   column-gap: 3rem;
   align-items: center;
 }
-.about-title{
+.about-title {
   text-align: center;
 }
 .about-title h2 {
   font-family: var(--Playfair);
-  padding: .08rem 0;
+  padding: 0.08rem 0;
   font-size: 2.4rem;
 }
 .about-text {
@@ -331,13 +331,13 @@ footer {
   font-family: var(--Playfair);
   letter-spacing: 2px;
 }
-.navbar-nav i{
+.navbar-nav i {
   display: none;
 }
 /*End of footer styling*/
 
 @media only screen and (max-width: 800px) {
-  .navbar-nav a{
+  .navbar-nav a {
     display: none;
   }
   .navbar-nav i {
@@ -345,32 +345,41 @@ footer {
     font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
-    transition: opacity .5s ease;
+    transition: opacity 0.5s ease;
   }
-  .navbar-nav i:hover{
-    opacity: .7;
+  .navbar-nav i:hover {
+    opacity: 0.7;
   }
-  .banner-title{
+  .banner-title {
     font-size: 3.5rem;
     padding-bottom: 1.5rem;
   }
-  .design-content{
+  .design-content {
     margin: 2rem 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
   }
-  .blog-content{
+  .blog-content {
     display: grid;
     grid-template-columns: 100%;
     gap: 2rem;
     margin: 2rem 0;
   }
-  .about-content{
+  .about-content {
     display: grid;
     grid-template-columns: 100%;
     column-gap: 3rem;
     align-items: center;
   }
-  
+  .search-btn {
+    width: 40px;
+    font-size: 1.2rem;
+    color: var(--dark);
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 0;
+  }
 }
